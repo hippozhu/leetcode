@@ -3,3 +3,5 @@ atoi:
 * skip spaces between sign and value
 * pass char * pointer as parameter, p++ in funciton doesn't change the p in calling (main) function
 * NULL seems not work to determine the end of a c string. use *p == '\0'
+* include <limits> to use numeric_limits<int>::max()
+* include <cstdlib> or <stdlib.h> to use exit(EXIT_FAILURE) or EXIT_SUCCESS
