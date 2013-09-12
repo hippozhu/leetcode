@@ -8,3 +8,10 @@ atoi:
 
 climbing stairs:
 * include stdlib for atoi
+
+strstr:
+* naive now, Knuth-Morris-Pratt later
+
+insert interval:
+* break while loop when needed
+* return head when needed
